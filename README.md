@@ -1,6 +1,9 @@
 # Image-Compressor-using-AWS-Lambda-and-S3-Bucket
 Automated AWS Lambda image compression using S3 buckets. Up to 99.5% size reduction. Easy to integrate in any application.
-Steps: Here's a step-by-step procedure to create an image optimizer using AWS Lambda and S3 buckets:
+
+# Note: If you are using my code please make appopiate changes in provided code such as replacing my s3 bucket names and user access keys With yours.
+
+Here's a step-by-step procedure to create an image optimizer using AWS Lambda and S3 buckets:
 
 1. **Create an AWS Account:**
    If you don't have an AWS account, sign up for one at [https://aws.amazon.com/](https://aws.amazon.com/).
@@ -37,6 +40,7 @@ Steps: Here's a step-by-step procedure to create an image optimizer using AWS La
 
 7. **Optional: Frontend Interface:**
    - Develop a frontend interface (web application) for users to upload images.
+   - Make a IAM User with appropriate Permissions for access key and secret access key as it will be used in interface.
    - Use AWS SDKs (e.g., AWS Amplify for JavaScript) to interact with S3 and trigger the Lambda function.
    - Deploy the frontend to a hosting service (e.g., Amazon S3, AWS Amplify Hosting).
 
